@@ -7,7 +7,7 @@ body {
 nav ul{ 
     list-style: none;
     background-color: #4a4a4f;
-    text-align:center;
+    text-align: center;
     margin:0;
     padding:0;
 }
@@ -17,14 +17,14 @@ nav li {
     line-height: 40px;
     height: 40px;
     display: inline-block;
-    margin-left:2.5%
+    margin-left: 2.5%;
     
     
 }
 nav a{
     text-decoration: none;
-    color: #ffffff;
-    display:block;
+    color: #fff;
+    display: block;
 }
 
 nav a:hover{
@@ -33,10 +33,26 @@ nav a:hover{
 
 }
 
+nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
 .card {
     float:left;
     width:20%;
     margin-left:10%;
+    max-width: 260px;
+    min-width: 150px;
 }
 
 .card a{
@@ -48,9 +64,6 @@ img{
     
     }
 
-h1{
-    text-align:center;
-    
-}
+
 
 
